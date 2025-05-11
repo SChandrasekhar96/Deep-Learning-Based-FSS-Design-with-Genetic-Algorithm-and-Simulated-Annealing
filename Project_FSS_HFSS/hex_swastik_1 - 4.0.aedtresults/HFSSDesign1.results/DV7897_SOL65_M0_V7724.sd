@@ -1,0 +1,2804 @@
+$begin 'soln'
+	ObjectType='Terminal'
+	SolutionType='HfssInterpolatingSweep'
+	MajorVersion=2
+	MinorVersion=0
+	Producer=''
+	Name='Sweep'
+	AdaptivePass=-1
+	AllowMixedMode=false
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=30000000000
+			DataType='None'
+			$begin 'SMatrix'
+				$begin 'FullMatrix'
+					m=4
+					n=4
+					$begin 'r0'
+						c(-0.9036263415152748, -0.184943137403643)
+						c(0.003409057366825249, -0.008660568218272853)
+						c(-0.02789639701062079, -0.2851914915678595)
+						c(0.0001461256565731481, -0.008882312429014931)
+					$end 'r0'
+					$begin 'r1'
+						c(0.003409057366822399, -0.008660568218282786)
+						c(-0.8980370624269055, -0.1971972641958807)
+						c(0.001234279542596109, -0.005294520752134434)
+						c(-0.02574530551486874, -0.2959764245428302)
+					$end 'r1'
+					$begin 'r2'
+						c(-0.02789639701062751, -0.2851914915678511)
+						c(0.001234279542609902, -0.005294520752115183)
+						c(-0.6144896056054047, 0.606088728794357)
+						c(-0.008576237996310403, -0.0101355231684248)
+					$end 'r2'
+					$begin 'r3'
+						c(0.0001461256565884633, -0.00888231242901308)
+						c(-0.02574530551487543, -0.2959764245428239)
+						c(-0.008576237996351255, -0.01013552316846494)
+						c(-0.6260393324301301, 0.5892259983134871)
+					$end 'r3'
+				$end 'FullMatrix'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'PortImpedance'
+				MatrixSize=4
+				NumberOfBlocks=2
+				Block0_Size=2
+				$begin 'Block0'
+					$begin 'FullMatrix'
+						m=2
+						n=2
+						$begin 'r0'
+							c(376.730313461, -0)
+							c(0, 0)
+						$end 'r0'
+						$begin 'r1'
+							c(0, 0)
+							c(376.730313461, -0)
+						$end 'r1'
+					$end 'FullMatrix'
+				$end 'Block0'
+				Block1_Size=2
+				$begin 'Block1'
+					$begin 'FullMatrix'
+						m=2
+						n=2
+						$begin 'r0'
+							c(376.730313461, -0)
+							c(0, 0)
+						$end 'r0'
+						$begin 'r1'
+							c(0, 0)
+							c(376.730313461, -0)
+						$end 'r1'
+					$end 'FullMatrix'
+				$end 'Block1'
+			$end 'PortImpedance'
+			$begin 'Gamma'
+				MatrixSize=4
+				NumberOfBlocks=2
+				Block0_Size=2
+				$begin 'Block0'
+					$begin 'FullMatrix'
+						m=2
+						n=2
+						$begin 'r0'
+							c(0, 628.7535065855045)
+							c(0, 0)
+						$end 'r0'
+						$begin 'r1'
+							c(0, 0)
+							c(0, 628.7535065855045)
+						$end 'r1'
+					$end 'FullMatrix'
+				$end 'Block0'
+				Block1_Size=2
+				$begin 'Block1'
+					$begin 'FullMatrix'
+						m=2
+						n=2
+						$begin 'r0'
+							c(0, 628.7535065855045)
+							c(0, 0)
+						$end 'r0'
+						$begin 'r1'
+							c(0, 0)
+							c(0, 628.7535065855045)
+						$end 'r1'
+					$end 'FullMatrix'
+				$end 'Block1'
+			$end 'Gamma'
+			$begin 'ExtraHfssData'
+				$begin 'Zpi'
+					n=4
+					$begin 'r0'
+						c(376.730313461, -0)
+						c(376.730313461, -0)
+						c(376.730313461, -0)
+						c(376.730313461, -0)
+					$end 'r0'
+				$end 'Zpi'
+				$begin 'Zwave'
+					n=4
+					$begin 'r0'
+						c(376.730313461, -0)
+						c(376.730313461, -0)
+						c(376.730313461, -0)
+						c(376.730313461, -0)
+					$end 'r0'
+				$end 'Zwave'
+				$begin 'TerminalPMatrix'
+					m=4
+					n=4
+					$begin 'r0'
+						c(2, 0)
+						c(0, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(2, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0, 0)
+						c(2, 0)
+						c(0, 0)
+					$end 'r2'
+					$begin 'r3'
+						c(0, 0)
+						c(0, 0)
+						c(0, 0)
+						c(2, 0)
+					$end 'r3'
+				$end 'TerminalPMatrix'
+				$begin 'ModalGamma'
+					n=4
+					$begin 'r0'
+						c(0, 628.7535065855045)
+						c(0, 628.7535065855045)
+						c(0, 628.7535065855045)
+						c(0, 628.7535065855045)
+					$end 'r0'
+				$end 'ModalGamma'
+			$end 'ExtraHfssData'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='FloquetPort1:1', TerminalEntryName='FloquetPort1:1', PortName='FloquetPort1', Mode=0, ModeName='1', TerminalName='', ParameterName='FloquetPort1:1', MatrixIndex=0, PortType=0, IsPassive=false, PreferredImpedance=524288)
+		Port(ModalEntryName='FloquetPort1:2', TerminalEntryName='FloquetPort1:2', PortName='FloquetPort1', Mode=1, ModeName='2', TerminalName='', ParameterName='FloquetPort1:2', MatrixIndex=1, PortType=0, IsPassive=false, PreferredImpedance=524288)
+		Port(ModalEntryName='FloquetPort2:1', TerminalEntryName='FloquetPort2:1', PortName='FloquetPort2', Mode=0, ModeName='1', TerminalName='', ParameterName='FloquetPort2:1', MatrixIndex=2, PortType=0, IsPassive=false, PreferredImpedance=524288)
+		Port(ModalEntryName='FloquetPort2:2', TerminalEntryName='FloquetPort2:2', PortName='FloquetPort2', Mode=1, ModeName='2', TerminalName='', ParameterName='FloquetPort2:2', MatrixIndex=3, PortType=0, IsPassive=true, PreferredImpedance=524288)
+	$end 'Ports'
+	$begin 'OtherStateSpaceModels'
+	$end 'OtherStateSpaceModels'
+	$begin 'SubrangeJordanInterpDescription'
+		ErrorTolerance=0.005
+		MaxBasisSize=1500
+		BasisSize=1
+		LowSampleFreq=100000000
+		LowFullRangeFreq=100000000
+		HighFullRangeFreq=30000000000
+		NumSamples=2991
+		MaxSubRangeBasisSize=40
+		MinNumSubRanges=1
+		WeightedErrorForUI=1
+		ForceTightConvergence=false
+		LastBasisFreq=30000000000
+		NumRanges=1
+		Ranges(100000000, 30000000000, 30000000000)
+		FreqSequence(30000000000)
+		ExtrapolationType=0
+		ExtrapolationIsConverged=false
+		ExtrapolationFreqCutoff=1500
+		ExtrapFreqSequence()
+		IsBarycentricS=false
+		InterpolationType=0
+		InterpolateGammaNotGammaSq=false
+	$end 'SubrangeJordanInterpDescription'
+	MultiTerminal=true
+	PortNames('FloquetPort1', 'FloquetPort2')
+	PortModes(2, 2)
+	PortTerminals('', '', '', '')
+	ModalData=true
+	PreferredImpedance='Zpi'
+	IeEnergyError=0
+$end 'soln'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=100000000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(-0.00086584706560211, -0.00962619098334007)
+				c(9.84702867164715e-07, 1.07260171283279e-05)
+				c(0.99704001071712, -0.0741324136642059)
+				c(1.00269123165482e-06, 1.07244021875369e-05)
+			$end 'r0'
+			$begin 'r1'
+				c(9.84703004621391e-07, 1.07260177248453e-05)
+				c(-0.000863769320486152, -0.00960504942209921)
+				c(1.00269168222265e-06, 1.07244027557718e-05)
+				c(0.997042123919866, -0.0741112755156428)
+			$end 'r1'
+			$begin 'r2'
+				c(0.997040010717072, -0.0741324136642013)
+				c(1.00269148308904e-06, 1.07244021621013e-05)
+				c(-0.00088861226392789, -0.00962420454225481)
+				c(1.02067720026984e-06, 1.07227570555751e-05)
+			$end 'r2'
+			$begin 'r3'
+				c(1.002691330593e-06, 1.07244027817401e-05)
+				c(0.997042123919773, -0.0741112755156384)
+				c(1.02067736107553e-06, 1.0722757646676e-05)
+				c(-0.000886463609200416, -0.00960306986584634)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 2.09584502195168)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 2.09584502195168)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 2.09584502195168)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 2.09584502195168)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 2.09584502195168)
+				c(0, 2.09584502195168)
+				c(0, 2.09584502195168)
+				c(0, 2.09584502195168)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=15050000000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(0.143141089740593, -0.0931405877865264)
+				c(-0.00021996835307762, 0.00121199118313182)
+				c(-0.936585542070326, 0.198644689256218)
+				c(-3.85837122553566e-05, 0.00122928574300842)
+			$end 'r0'
+			$begin 'r1'
+				c(-0.000219968353077994, 0.00121199118307677)
+				c(0.144450047113581, -0.0997655637080827)
+				c(0.00013969660681186, 0.00119334099686724)
+				c(-0.937153052355215, 0.1911293772509)
+			$end 'r1'
+			$begin 'r2'
+				c(-0.936585542070344, 0.198644689256149)
+				c(0.000139696606799644, 0.00119334099692586)
+				c(-0.110432898787811, -0.0509060081989221)
+				c(0.00047694824005539, 0.00143004188264316)
+			$end 'r2'
+			$begin 'r3'
+				c(-3.85837122779561e-05, 0.0012292857430012)
+				c(-0.937153052355214, 0.191129377250739)
+				c(0.000476948240062188, 0.00143004188263671)
+				c(-0.1132679675063, -0.0587892284398948)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 315.424675803728)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 315.424675803728)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 315.424675803728)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 315.424675803728)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 315.424675803728)
+				c(0, 315.424675803728)
+				c(0, 315.424675803728)
+				c(0, 315.424675803728)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=22525000000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(-0.358016680777345, 0.529602060197314)
+				c(0.000761919819958178, -0.000821138211643647)
+				c(-0.668754216613236, -0.337862542733763)
+				c(-0.00099496473538099, -0.000735235128256664)
+			$end 'r0'
+			$begin 'r1'
+				c(0.000761919819954425, -0.000821138211641385)
+				c(-0.359367772506837, 0.526695253535003)
+				c(-0.000458933062578455, -0.000473904006847837)
+				c(-0.668454664521481, -0.341504134361404)
+			$end 'r1'
+			$begin 'r2'
+				c(-0.668754216613235, -0.337862542733763)
+				c(-0.000458933062580285, -0.00047390400684888)
+				c(-0.175167978566065, 0.611035957810846)
+				c(-0.000139961715976127, -0.0011942910668048)
+			$end 'r2'
+			$begin 'r3'
+				c(-0.000994964735372213, -0.000735235128255197)
+				c(-0.66845466452148, -0.341504134361406)
+				c(-0.000139961715979877, -0.00119429106679991)
+				c(-0.177510662836882, 0.608650550220836)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 472.089091194616)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 472.089091194616)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 472.089091194616)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 472.089091194616)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 472.089091194616)
+				c(0, 472.089091194616)
+				c(0, 472.089091194616)
+				c(0, 472.089091194616)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=7575000000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(0.44912077088034, -0.536236192203314)
+				c(2.89657116885731e-05, 0.000537611585284901)
+				c(0.570750914158028, 0.404736181279463)
+				c(8.32681890807923e-05, 0.000535487375929229)
+			$end 'r0'
+			$begin 'r1'
+				c(2.89657117631554e-05, 0.000537611585291604)
+				c(0.44922867841517, -0.534220149485738)
+				c(9.23108341384558e-05, 0.000541613930174342)
+				c(0.571135222814088, 0.406787068203366)
+			$end 'r1'
+			$begin 'r2'
+				c(0.570750914158031, 0.404736181279482)
+				c(9.23108340955228e-05, 0.000541613930152174)
+				c(0.331398749801532, -0.616086668539805)
+				c(0.000155355121577112, 0.000530633926894419)
+			$end 'r2'
+			$begin 'r3'
+				c(8.32681890778719e-05, 0.000535487375958045)
+				c(0.57113522281405, 0.406787068203444)
+				c(0.000155355121570056, 0.000530633926903572)
+				c(0.332085703706042, -0.614042366280478)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 158.76026041284)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 158.76026041284)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 158.76026041284)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 158.76026041284)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 158.76026041284)
+				c(0, 158.76026041284)
+				c(0, 158.76026041284)
+				c(0, 158.76026041284)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=18787500000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(-0.0269251871304456, -0.443412970804065)
+				c(-4.14076562462695e-05, 0.000390408560914677)
+				c(0.875673996483409, -0.018841537907002)
+				c(0.000381351292048607, 0.000519813146157493)
+			$end 'r0'
+			$begin 'r1'
+				c(-4.14076562250126e-05, 0.000390408560897567)
+				c(-0.0278466994931673, -0.440458360005938)
+				c(9.26584603166206e-05, 0.000527646222577928)
+				c(0.877207225064923, -0.0147897849914304)
+			$end 'r1'
+			$begin 'r2'
+				c(0.875673996483404, -0.0188415379070125)
+				c(9.26584603035284e-05, 0.000527646222597061)
+				c(-0.0339479632222461, -0.435520484873259)
+				c(0.000655365950634747, 0.000348904884820903)
+			$end 'r2'
+			$begin 'r3'
+				c(0.0003813512920671, 0.000519813146161713)
+				c(0.877207225064919, -0.0147897849914303)
+				c(0.000655365950652855, 0.000348904884822419)
+				c(-0.0288765852510859, -0.432738607486152)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 393.756883499172)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 393.756883499172)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 393.756883499172)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 393.756883499172)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 393.756883499172)
+				c(0, 393.756883499172)
+				c(0, 393.756883499172)
+				c(0, 393.756883499172)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=20656250000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(-0.539223713607809, -0.14668635876272)
+				c(0.00109226111563408, 0.000325357319654665)
+				c(0.165833931300727, -0.792573765583067)
+				c(0.000827069432568977, -0.000825419351066997)
+			$end 'r0'
+			$begin 'r1'
+				c(0.00109226111563387, 0.000325357319656559)
+				c(-0.536722149736, -0.146345779921282)
+				c(0.000768140680976048, -0.000409175564328458)
+				c(0.169715872046334, -0.793538633067846)
+			$end 'r1'
+			$begin 'r2'
+				c(0.165833931300727, -0.792573765583067)
+				c(0.000768140680976972, -0.000409175564332037)
+				c(-0.552732907256445, -0.0413680498945045)
+				c(0.0012047242711631, -0.000751552773392786)
+			$end 'r2'
+			$begin 'r3'
+				c(0.000827069432568567, -0.000825419351069603)
+				c(0.169715872046342, -0.793538633067851)
+				c(0.00120472427116686, -0.000751552773391911)
+				c(-0.549788006101372, -0.0456504166062741)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 432.922987346894)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 432.922987346894)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 432.922987346894)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 432.922987346894)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 432.922987346894)
+				c(0, 432.922987346894)
+				c(0, 432.922987346894)
+				c(0, 432.922987346894)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=11312500000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(-0.661861412066359, 0.717060015170512)
+				c(0.000348424764144214, 0.000287751552483266)
+				c(0.0100044722054286, -0.0239933648193505)
+				c(0.000493659410204249, 0.000268149854096744)
+			$end 'r0'
+			$begin 'r1'
+				c(0.000348424764118597, 0.000287751552462102)
+				c(-0.667103945296809, 0.712361453238063)
+				c(0.000418389201309844, 0.000225673248270986)
+				c(0.00345755320542242, -0.0278441884657419)
+			$end 'r1'
+			$begin 'r2'
+				c(0.0100044722054271, -0.0239933648193639)
+				c(0.000418389201352862, 0.000225673248294181)
+				c(-0.33393278130229, 0.913092716260422)
+				c(0.000595149320638777, 0.000186459221150397)
+			$end 'r2'
+			$begin 'r3'
+				c(0.00049365941020239, 0.000268149854104225)
+				c(0.00345755320542667, -0.0278441884657393)
+				c(0.000595149320613063, 0.00018645922114257)
+				c(-0.341518236414327, 0.910474117384482)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 237.092468108284)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 237.092468108284)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 237.092468108284)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 237.092468108284)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 237.092468108284)
+				c(0, 237.092468108284)
+				c(0, 237.092468108284)
+				c(0, 237.092468108284)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=16918750000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(0.245410478459324, -0.124381198484384)
+				c(0.000427962183815517, -7.93472712884941e-05)
+				c(0.173056252122532, 0.923363411888304)
+				c(0.000159986063138759, -4.89019871063418e-07)
+			$end 'r0'
+			$begin 'r1'
+				c(0.000427962183809278, -7.93472712926486e-05)
+				c(0.241220442728297, -0.124713025199141)
+				c(0.000118560372162835, -0.000215692377763399)
+				c(0.168262740780599, 0.925254857713613)
+			$end 'r1'
+			$begin 'r2'
+				c(0.173056252122533, 0.923363411888299)
+				c(0.000118560372158549, -0.000215692377756862)
+				c(0.256911092618075, -0.018062603623491)
+				c(0.000472100589854696, -9.13428027842647e-05)
+			$end 'r2'
+			$begin 'r3'
+				c(0.000159986063120021, -4.8901988681887e-07)
+				c(0.16826274078058, 0.925254857713617)
+				c(0.000472100589843585, -9.13428028019723e-05)
+				c(0.253041557571654, -0.013560672974489)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 354.59077965145)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 354.59077965145)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 354.59077965145)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 354.59077965145)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 354.59077965145)
+				c(0, 354.59077965145)
+				c(0, 354.59077965145)
+				c(0, 354.59077965145)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9443750000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(-0.599381391949957, -0.627688416575973)
+				c(0.00033095281187427, -7.04052165494039e-05)
+				c(0.302366780727205, -0.355821674512822)
+				c(0.000299442505362929, -9.32781402722497e-05)
+			$end 'r0'
+			$begin 'r1'
+				c(0.000330952811897836, -7.04052165703619e-05)
+				c(-0.596004848602864, -0.628524430992943)
+				c(0.000318371847428517, -0.000117645990836176)
+				c(0.305719754716474, -0.357292977189315)
+			$end 'r1'
+			$begin 'r2'
+				c(0.302366780727212, -0.355821674512821)
+				c(0.000318371847405662, -0.000117645990804923)
+				c(-0.748903268893896, -0.437447039877262)
+				c(0.000283595154188353, -0.000131015607879782)
+			$end 'r2'
+			$begin 'r3'
+				c(0.000299442505370538, -9.32781402697318e-05)
+				c(0.305719754716469, -0.357292977189343)
+				c(0.000283595154201267, -0.000131015607888205)
+				c(-0.74568879472465, -0.439540238093205)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 197.926364260562)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 197.926364260562)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 197.926364260562)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 197.926364260562)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 197.926364260562)
+				c(0, 197.926364260562)
+				c(0, 197.926364260562)
+				c(0, 197.926364260562)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=3837500000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(-0.114944964796974, 0.3445566015333)
+				c(-9.51160148691034e-06, -0.000378612565115353)
+				c(-0.886174167127083, -0.266806886127525)
+				c(-3.32036007441832e-05, -0.000379717740061386)
+			$end 'r0'
+			$begin 'r1'
+				c(-9.51160151004341e-06, -0.000378612565121201)
+				c(-0.11497087542714, 0.343730324804942)
+				c(-3.38297907419122e-05, -0.000379900439006211)
+				c(-0.886253684063463, -0.267636076876828)
+			$end 'r1'
+			$begin 'r2'
+				c(-0.886174167127074, -0.266806886127637)
+				c(-3.38297907604752e-05, -0.000379900439069285)
+				c(-0.0823397864573221, 0.353879827821408)
+				c(-5.79044478333359e-05, -0.000379210935178084)
+			$end 'r2'
+			$begin 'r3'
+				c(-3.32036007640056e-05, -0.000379717740125848)
+				c(-0.886253684063398, -0.267636076876956)
+				c(-5.79044478104818e-05, -0.000379210935164318)
+				c(-0.0824741397459273, 0.35305226309971)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 80.4280527173958)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 80.4280527173958)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 80.4280527173958)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 80.4280527173958)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 80.4280527173958)
+				c(0, 80.4280527173958)
+				c(0, 80.4280527173958)
+				c(0, 80.4280527173958)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=26262500000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(0.716803218863834, -0.244669463292823)
+				c(0.000608576103495475, 0.000241866379627219)
+				c(0.338785409175528, 0.530178931726452)
+				c(-0.000949323742680137, 0.000857862028894825)
+			$end 'r0'
+			$begin 'r1'
+				c(0.000608576103488872, 0.000241866379629231)
+				c(0.717648390828421, -0.239927848390903)
+				c(-0.00173150021948977, -0.000306413649050865)
+				c(0.333130963254944, 0.534890921643893)
+			$end 'r1'
+			$begin 'r2'
+				c(0.338785409175517, 0.530178931726439)
+				c(-0.00173150021947014, -0.000306413649049527)
+				c(0.484025782916323, -0.574429416245421)
+				c(0.00253685547141354, 0.00147034606606721)
+			$end 'r2'
+			$begin 'r3'
+				c(-0.000949323742680013, 0.000857862028887526)
+				c(0.333130963254945, 0.534890921643897)
+				c(0.00253685547139927, 0.00147034606607457)
+				c(0.493630998769575, -0.56552635758101)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 550.42129889006)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 550.42129889006)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 550.42129889006)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 550.42129889006)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 550.42129889006)
+				c(0, 550.42129889006)
+				c(0, 550.42129889006)
+				c(0, 550.42129889006)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=28131250000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(-0.0294542124314035, -0.827967344739194)
+				c(0.00352642262431847, 0.000295007920518297)
+				c(0.50007707355185, -0.169973094515946)
+				c(0.00294437663367539, 0.00240292424624723)
+			$end 'r0'
+			$begin 'r1'
+				c(0.00352642262432311, 0.000295007920502464)
+				c(-0.0231051331643032, -0.825281390427269)
+				c(0.000878609642233093, 0.00318911810558648)
+				c(0.507590625937222, -0.162660337867716)
+			$end 'r1'
+			$begin 'r2'
+				c(0.500077073551841, -0.169973094515941)
+				c(0.000878609642241979, 0.00318911810559644)
+				c(-0.527715348041124, -0.620670052127928)
+				c(0.00587405480659234, -0.00443662504981034)
+			$end 'r2'
+			$begin 'r3'
+				c(0.00294437663366689, 0.00240292424622785)
+				c(0.507590625937215, -0.162660337867712)
+				c(0.00587405480658141, -0.00443662504981516)
+				c(-0.50765807961557, -0.633532771118163)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 589.587402737782)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 589.587402737782)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 589.587402737782)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 589.587402737782)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 589.587402737782)
+				c(0, 589.587402737782)
+				c(0, 589.587402737782)
+				c(0, 589.587402737782)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=24393750000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(0.420915018935068, 0.558855689679027)
+				c(0.000202073657591169, -0.000403593912063812)
+				c(-0.467774616661025, 0.512158107272744)
+				c(-0.000495516451353662, 0.000435716767966049)
+			$end 'r0'
+			$begin 'r1'
+				c(0.000202073657592177, -0.000403593912056256)
+				c(0.416981857290703, 0.561168707333571)
+				c(0.000105036117752853, -0.000243625291256203)
+				c(-0.471378917104813, 0.509544907367254)
+			$end 'r1'
+			$begin 'r2'
+				c(-0.46777461666101, 0.51215810727275)
+				c(0.000105036117761625, -0.00024362529125971)
+				c(0.611716969960616, 0.331251949587584)
+				c(-0.000432160650378364, 0.000410788002502781)
+			$end 'r2'
+			$begin 'r3'
+				c(-0.000495516451352653, 0.000435716767965532)
+				c(-0.471378917104821, 0.509544907367256)
+				c(-0.000432160650376508, 0.000410788002514469)
+				c(0.609270914972875, 0.335004313170556)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 511.255195042338)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 511.255195042338)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 511.255195042338)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 511.255195042338)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 511.255195042338)
+				c(0, 511.255195042338)
+				c(0, 511.255195042338)
+				c(0, 511.255195042338)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=13181250000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(0.605031038646318, 0.301615099957525)
+				c(-0.000949934425787066, -0.00186158449228256)
+				c(0.042150725639165, -0.688275504044896)
+				c(-0.00145502266648535, -0.00181663909025009)
+			$end 'r0'
+			$begin 'r1'
+				c(-0.00094993442580199, -0.00186158449232987)
+				c(0.609504803107619, 0.3102609833354)
+				c(-0.00146854003934798, -0.00167628300532195)
+				c(0.0489681392336663, -0.680045267714715)
+			$end 'r1'
+			$begin 'r2'
+				c(0.042150725639163, -0.688275504044875)
+				c(-0.00146854003930352, -0.00167628300529643)
+				c(0.652518388443044, -0.117706113144951)
+				c(-0.00199959334655125, -0.00147258175612496)
+			$end 'r2'
+			$begin 'r3'
+				c(-0.00145502266649865, -0.00181663909028166)
+				c(0.0489681392337495, -0.680045267714801)
+				c(-0.00199959334657798, -0.00147258175611863)
+				c(0.661903438583674, -0.110653778624323)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 276.258571956006)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 276.258571956006)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 276.258571956006)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 276.258571956006)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 276.258571956006)
+				c(0, 276.258571956006)
+				c(0, 276.258571956006)
+				c(0, 276.258571956006)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=29065625000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(-0.552167614341433, -0.675313864021375)
+				c(0.00537462643788038, -0.00270426874582352)
+				c(0.237879951150578, -0.375227140187114)
+				c(0.00532438024685774, -0.0018827954483325)
+			$end 'r0'
+			$begin 'r1'
+				c(0.00537462643786956, -0.00270426874581428)
+				c(-0.54286126328585, -0.677992265837699)
+				c(0.00394882192065129, 0.000606220061856599)
+				c(0.248993687895998, -0.377366252134899)
+			$end 'r1'
+			$begin 'r2'
+				c(0.237879951150575, -0.375227140187129)
+				c(0.00394882192064857, 0.000606220061853148)
+				c(-0.842053736385236, -0.0963408302991613)
+				c(0.002345368677258, -0.00963330923793072)
+			$end 'r2'
+			$begin 'r3'
+				c(0.0053243802468538, -0.00188279544830154)
+				c(0.248993687896, -0.377366252134913)
+				c(0.00234536867726454, -0.00963330923792079)
+				c(-0.834959484489141, -0.120573846777845)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 609.170454661643)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 609.170454661643)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 609.170454661643)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 609.170454661643)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 609.170454661643)
+				c(0, 609.170454661643)
+				c(0, 609.170454661643)
+				c(0, 609.170454661643)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=14115625000
+	DataType='None'
+	$begin 'SMatrix'
+		$begin 'FullMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(0.36499470812759, -0.119943597344639)
+				c(-0.00169478585323031, 0.000407623717153286)
+				c(-0.69790167051104, -0.550034860223511)
+				c(-0.00173359922613012, 0.000776060506973286)
+			$end 'r0'
+			$begin 'r1'
+				c(-0.00169478585327396, 0.000407623717109192)
+				c(0.373280798625988, -0.122041803893232)
+				c(-0.00160550475325383, 0.000881653548009041)
+				c(-0.6895451285551, -0.554377868026102)
+			$end 'r1'
+			$begin 'r2'
+				c(-0.697901670511019, -0.550034860223552)
+				c(-0.00160550475322267, 0.000881653548037634)
+				c(0.101501044857652, -0.346667142920837)
+				c(-0.00155270325709017, 0.00141847006696983)
+			$end 'r2'
+			$begin 'r3'
+				c(-0.00173359922615919, 0.000776060506988436)
+				c(-0.689545128554973, -0.554377868026198)
+				c(-0.00155270325710871, 0.00141847006700665)
+				c(0.109375142916082, -0.353588680570499)
+			$end 'r3'
+		$end 'FullMatrix'
+	$end 'SMatrix'
+	EnergyError=0
+	IeEnergyError=0
+	$begin 'PortImpedance'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(376.730313461, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(376.730313461, 0)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'PortImpedance'
+	$begin 'Gamma'
+		MatrixSize=4
+		NumberOfBlocks=2
+		Block0_Size=2
+		$begin 'Block0'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 295.841623879867)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 295.841623879867)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block0'
+		Block1_Size=2
+		$begin 'Block1'
+			$begin 'FullMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 295.841623879867)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 295.841623879867)
+				$end 'r1'
+			$end 'FullMatrix'
+		$end 'Block1'
+	$end 'Gamma'
+	$begin 'ExtraHfssData'
+		$begin 'Zpi'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zpi'
+		$begin 'Zwave'
+			n=4
+			$begin 'r0'
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+				c(376.730313461, 0)
+			$end 'r0'
+		$end 'Zwave'
+		$begin 'TerminalPMatrix'
+			m=4
+			n=4
+			$begin 'r0'
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r0'
+			$begin 'r1'
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+				c(0, 0)
+			$end 'r1'
+			$begin 'r2'
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+				c(0, 0)
+			$end 'r2'
+			$begin 'r3'
+				c(0, 0)
+				c(0, 0)
+				c(0, 0)
+				c(2, 0)
+			$end 'r3'
+		$end 'TerminalPMatrix'
+		$begin 'ModalGamma'
+			n=4
+			$begin 'r0'
+				c(0, 295.841623879867)
+				c(0, 295.841623879867)
+				c(0, 295.841623879867)
+				c(0, 295.841623879867)
+			$end 'r0'
+		$end 'ModalGamma'
+	$end 'ExtraHfssData'
+$end 'freq'
